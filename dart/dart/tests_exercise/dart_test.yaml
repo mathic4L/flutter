@@ -1,0 +1,17 @@
+# разметка тегами позволяет кастомизировать тесты
+tags:
+  computer: {
+    timeout: 1s
+  }
+  matcher : {}
+  person: {}
+
+# платформы, на которых будут запущены тесты.
+# дефолт = [vm]
+platforms: [
+  chrome
+]
+
+# определяет формат вывода
+# есть: compact, expanded, github, json
+reporter: expanded
